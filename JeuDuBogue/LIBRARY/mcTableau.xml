@@ -1,18 +1,18 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1378836218">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1379009494">
   <timeline>
     <DOMTimeline name="mcTableau">
       <layers>
-        <DOMLayer name="txt" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="txt" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="63" height="46.7" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="175" height="22.35" isSelectable="false">
                   <matrix>
                     <Matrix tx="7" ty="6.9"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>Points:&#xD;Vies:</characters>
+                      <characters>Point:             Vies:     </characters>
                       <textAttrs>
                         <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="_sans" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -32,9 +32,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="txtVies" selected="true" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
+                <DOMDynamicText name="txtVies" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
                   <matrix>
-                    <Matrix tx="74" ty="31.25"/>
+                    <Matrix tx="184.5" ty="7.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -49,27 +49,24 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="fond" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="fond" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.247058823529412"/>
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="1.52587890625e-005" b="0.02227783203125" c="-0.0235748291015625" d="1.52587890625e-005" tx="113.25" ty="18.25"/>
+                        </matrix>
+                        <GradientEntry color="#0033CC" ratio="0"/>
+                        <GradientEntry color="#FF6600" alpha="0.8" ratio="1"/>
+                      </LinearGradient>
                     </FillStyle>
                   </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="3">
-                        <fill>
-                          <SolidColor alpha="0.498039215686275"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!-6 -3|2145 -3!2145 -3|2145 1202!2145 1202|-6 1202!-6 1202|-6 -3"/>
+                    <Edge fillStyle1="1" edges="!4520 -10S2|4520 740!4520 740|10 740!10 740|10 -10!10 -10|4520 -10"/>
                   </edges>
                 </DOMShape>
               </elements>
